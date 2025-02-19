@@ -8,6 +8,14 @@ The Grocery Booking API allows **admins** to manage grocery items and **users** 
 - **TypeScript:** v4.9.5  
 - **Express:** v4.21.2  
 
-To check your installed Node.js version, run:  
+Authentication & Authorization
+JWT-based authentication is implemented.
+Admin and User roles are defined.
+Middleware checks user roles before allowing access.
+Technologies Used
+Backend: Node.js, TypeScript, Express
+Database: MySQL with TypeORM
+Authentication: JWT
+Validation: Express Validator
+
 ```bash
-node -v
